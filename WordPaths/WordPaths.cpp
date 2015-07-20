@@ -25,6 +25,7 @@ struct CompareNode : public std::binary_function<Node*, Node*, bool>
 
 int main(int argc, char * argv[])
 {	
+<<<<<<< HEAD
 	if (argc > 1){
 		if (!string(argv[1]).compare("--help")){
 			cout << help();
@@ -42,6 +43,10 @@ int main(int argc, char * argv[])
 	string end_word = "tail";
 	
 	bool found = false;
+=======
+	string start_word = "head";
+	string end_word = "tail";
+>>>>>>> 3708aa088d27140b571071f4c105d5ea2c3ad301
 	vector<string> words;
 	vector<string> generated_words;
 	vector<Node*> created_words;
@@ -59,10 +64,13 @@ int main(int argc, char * argv[])
 
 	while (!pq.empty())
 	{
+<<<<<<< HEAD
 		// if path from start to end word is found
 		if (found)
 			break;
 
+=======
+>>>>>>> 3708aa088d27140b571071f4c105d5ea2c3ad301
 		// get node with lowest cost
 		Node* n = pq.top();
 		pq.pop();
@@ -75,6 +83,7 @@ int main(int argc, char * argv[])
 		for (vector<int>::size_type i = 0; i != generated_words.size(); i++) {
 			if (generated_words[i] == end_word){
 				chain = path(n);
+<<<<<<< HEAD
 
 				for (vector<string>::iterator i = chain.begin(); i != chain.end(); ++i){
 					cout << *i;
@@ -87,6 +96,11 @@ int main(int argc, char * argv[])
 
 				found = true;
 				break;
+=======
+				for (vector<string>::iterator i = chain.begin(); i != chain.end(); ++i)
+					cout << *i << endl;
+				return 0;
+>>>>>>> 3708aa088d27140b571071f4c105d5ea2c3ad301
 			}
 			else {
 				if (find(explored.begin(), explored.end(), generated_words[i]) == explored.end()){

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿Build started 20.07.2015 15:40:36.
      1>Project "C:\Users\xxvs0026\Documents\Visual Studio 2012\Projects\WordPaths\WordPaths\WordPaths.vcxproj" on node 2 (Build target(s)).
        Project file contains ToolsVersion="12.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
@@ -6,14 +7,36 @@
          WordPaths.cpp
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\xxvs0026\Documents\Visual Studio 2012\Projects\WordPaths\Release\WordPaths.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\xxvs0026\Documents\Visual Studio 2012\Projects\WordPaths\Release\WordPaths.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\xxvs0026\Documents\Visual Studio 2012\Projects\WordPaths\Release\WordPaths.lib" /MACHINE:X86 /SAFESEH Release\functions.obj
+=======
+﻿Build started 16.07.2015 16:14:31.
+     1>Project "C:\Users\xxvs0026\documents\visual studio 2013\Projects\WordPaths\WordPaths\WordPaths.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\WordPaths.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Node.cpp WordPaths.cpp functions.cpp
+         Node.cpp
+         WordPaths.cpp
+         functions.cpp
+     1>functions.cpp(33): warning C4018: '<' : signed/unsigned mismatch
+     1>functions.cpp(49): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\xxvs0026\documents\visual studio 2013\Projects\WordPaths\Release\WordPaths.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\xxvs0026\documents\visual studio 2013\Projects\WordPaths\Release\WordPaths.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\xxvs0026\documents\visual studio 2013\Projects\WordPaths\Release\WordPaths.lib" /MACHINE:X86 /SAFESEH Release\functions.obj
+>>>>>>> 3708aa088d27140b571071f4c105d5ea2c3ad301
          Release\Node.obj
          Release\stdafx.obj
          Release\WordPaths.obj
          Generating code
          Finished generating code
+<<<<<<< HEAD
          WordPaths.vcxproj -> C:\Users\xxvs0026\Documents\Visual Studio 2012\Projects\WordPaths\Release\WordPaths.exe
      1>Done Building Project "C:\Users\xxvs0026\Documents\Visual Studio 2012\Projects\WordPaths\WordPaths\WordPaths.vcxproj" (Build target(s)).
 
 Build succeeded.
 
 Time Elapsed 00:00:01.16
+=======
+         WordPaths.vcxproj -> C:\Users\xxvs0026\documents\visual studio 2013\Projects\WordPaths\Release\WordPaths.exe
+     1>Done Building Project "C:\Users\xxvs0026\documents\visual studio 2013\Projects\WordPaths\WordPaths\WordPaths.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.64
+>>>>>>> 3708aa088d27140b571071f4c105d5ea2c3ad301

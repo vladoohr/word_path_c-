@@ -81,6 +81,7 @@ vector<string> path(Node *node){
 
 	return chain;
 }
+<<<<<<< HEAD
 
 string version(){
 	string version = "1.0";
@@ -95,3 +96,5 @@ string help(){
 -----------------------------------------------------------------------------------------------\n";
 	return help;
 }
+=======
+>>>>>>> 3708aa088d27140b571071f4c105d5ea2c3ad301
