@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ﻿Build started 20.07.2015 15:13:43.
      1>Project "C:\Users\xxvs0026\Documents\Visual Studio 2012\Projects\WordPaths\WordPaths\WordPaths.vcxproj" on node 2 (Build target(s)).
        Project file contains ToolsVersion="12.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
@@ -16,21 +15,3 @@
 Build succeeded.
 
 Time Elapsed 00:00:00.88
-=======
-﻿Build started 16.07.2015 10:18:50.
-     1>Project "C:\Users\xxvs0026\documents\visual studio 2013\Projects\WordPaths\WordPaths\WordPaths.vcxproj" on node 2 (Build target(s)).
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\WordPaths.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt WordPaths.cpp
-         WordPaths.cpp
-     1>c:\users\xxvs0026\documents\visual studio 2013\projects\wordpaths\wordpaths\wordpaths.cpp(36): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\xxvs0026\documents\visual studio 2013\projects\wordpaths\wordpaths\wordpaths.cpp(83): warning C4018: '<' : signed/unsigned mismatch
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\xxvs0026\documents\visual studio 2013\Projects\WordPaths\Debug\WordPaths.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\xxvs0026\documents\visual studio 2013\Projects\WordPaths\Debug\WordPaths.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\xxvs0026\documents\visual studio 2013\Projects\WordPaths\Debug\WordPaths.lib" /MACHINE:X86 Debug\stdafx.obj
-         Debug\WordPaths.obj
-         WordPaths.vcxproj -> C:\Users\xxvs0026\documents\visual studio 2013\Projects\WordPaths\Debug\WordPaths.exe
-     1>Done Building Project "C:\Users\xxvs0026\documents\visual studio 2013\Projects\WordPaths\WordPaths\WordPaths.vcxproj" (Build target(s)).
-
-Build succeeded.
-
-Time Elapsed 00:00:00.74
->>>>>>> 3708aa088d27140b571071f4c105d5ea2c3ad301
