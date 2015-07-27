@@ -17,7 +17,7 @@ using namespace std;
 
 struct CompareNode : public std::binary_function<Node*, Node*, bool>
 {
-	bool operator()(const Node* lhs, const Node* rhs) const
+	bool operator()(Node* lhs, Node* rhs) const
 	{
 		return lhs->getCost() > rhs->getCost();
 	}
@@ -69,12 +69,12 @@ int main(int argc, char * argv[])
 
 		// generate all combinations with changing one letter each time.
 		// generated word must be in words.txt file
-		generated_words = generate_words(n, dictionary);
-		explored.push_back(n->start_word);
+		generated_words = n->generate_words(dictionary);
+		explored.push_back(n->get_start_word());
 
 		for (vector<int>::size_type i = 0; i != generated_words.size(); i++) {
 			if (generated_words[i] == end_word){
-				chain = path(n);
+				chain = n->path();
 
 				for (vector<string>::iterator i = chain.begin(); i != chain.end(); ++i){
 					cout << *i;
@@ -90,7 +90,7 @@ int main(int argc, char * argv[])
 			}
 			else {
 				if (find(explored.begin(), explored.end(), generated_words[i]) == explored.end()){
-					Node *nextNode = new Node(generated_words[i], n->end_word, n, diff_char(generated_words[i], n->end_word));
+					Node *nextNode = new Node(generated_words[i], n->get_end_word(), n, diff_char(generated_words[i], n->get_end_word()));
 					pq.push(nextNode);
 					created_words.push_back(nextNode);
 				}

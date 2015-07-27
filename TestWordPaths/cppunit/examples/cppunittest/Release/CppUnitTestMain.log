@@ -1,0 +1,74 @@
+﻿Build started 23.07.2015 09:49:15.
+     1>Project "C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\examples\cppunittest\CppUnitTestMain.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I../../include /Z7 /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo".\Release\\" /Fd".\Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt assertion_traitsTest.cpp ExceptionTest.cpp MessageTest.cpp TestAssertTest.cpp TestCallerTest.cpp TestCaseTest.cpp TestFailureTest.cpp TestPathTest.cpp TestResultTest.cpp TestSuiteTest.cpp TestTest.cpp XmlUniformiser.cpp XmlUniformiserTest.cpp HelperMacrosTest.cpp ExceptionTestCaseDecoratorTest.cpp OrthodoxTest.cpp RepeatedTestTest.cpp TestDecoratorTest.cpp TestSetUpTest.cpp TestResultCollectorTest.cpp XmlOutputterTest.cpp StringToolsTest.cpp XmlElementTest.cpp BaseTestCase.cpp MockTestCase.cpp MockTestListener.cpp SubclassedTestCase.cpp TrackedTestCase.cpp CppUnitTestSuite.cpp CppUnitTestMain.cpp
+         assertion_traitsTest.cpp
+         ExceptionTest.cpp
+         MessageTest.cpp
+         TestAssertTest.cpp
+         TestCallerTest.cpp
+         TestCaseTest.cpp
+         TestFailureTest.cpp
+         TestPathTest.cpp
+         TestResultTest.cpp
+         TestSuiteTest.cpp
+         TestTest.cpp
+         XmlUniformiser.cpp
+         XmlUniformiserTest.cpp
+         HelperMacrosTest.cpp
+         ExceptionTestCaseDecoratorTest.cpp
+         OrthodoxTest.cpp
+         RepeatedTestTest.cpp
+         TestDecoratorTest.cpp
+         TestSetUpTest.cpp
+         TestResultCollectorTest.cpp
+         Generating Code...
+         Compiling...
+         XmlOutputterTest.cpp
+         StringToolsTest.cpp
+         XmlElementTest.cpp
+         BaseTestCase.cpp
+         MockTestCase.cpp
+         MockTestListener.cpp
+         SubclassedTestCase.cpp
+         TrackedTestCase.cpp
+         CppUnitTestSuite.cpp
+         CppUnitTestMain.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Release\CppUnitTestMain.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:../../lib/ odbc32.lib odbccp32.lib cppunit.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\Release\CppUnitTestMain.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Release\CppUnitTestMain.lib" /MACHINE:X86 /SAFESEH .\Release\assertion_traitsTest.obj
+         .\Release\ExceptionTest.obj
+         .\Release\MessageTest.obj
+         .\Release\TestAssertTest.obj
+         .\Release\TestCallerTest.obj
+         .\Release\TestCaseTest.obj
+         .\Release\TestFailureTest.obj
+         .\Release\TestPathTest.obj
+         .\Release\TestResultTest.obj
+         .\Release\TestSuiteTest.obj
+         .\Release\TestTest.obj
+         .\Release\XmlUniformiser.obj
+         .\Release\XmlUniformiserTest.obj
+         .\Release\HelperMacrosTest.obj
+         .\Release\ExceptionTestCaseDecoratorTest.obj
+         .\Release\OrthodoxTest.obj
+         .\Release\RepeatedTestTest.obj
+         .\Release\TestDecoratorTest.obj
+         .\Release\TestSetUpTest.obj
+         .\Release\TestResultCollectorTest.obj
+         .\Release\XmlOutputterTest.obj
+         .\Release\StringToolsTest.obj
+         .\Release\XmlElementTest.obj
+         .\Release\BaseTestCase.obj
+         .\Release\MockTestCase.obj
+         .\Release\MockTestListener.obj
+         .\Release\SubclassedTestCase.obj
+         .\Release\TrackedTestCase.obj
+         .\Release\CppUnitTestSuite.obj
+         .\Release\CppUnitTestMain.obj
+     1>LINK : fatal error LNK1181: cannot open input file 'cppunit.lib'
+     1>Done Building Project "C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\examples\cppunittest\CppUnitTestMain.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:21.44

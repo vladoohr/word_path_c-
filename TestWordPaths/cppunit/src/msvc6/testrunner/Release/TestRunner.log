@@ -1,0 +1,15 @@
+﻿Build started 23.07.2015 10:10:50.
+     1>Project "C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\src\msvc6\testrunner\TestRunner.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         TestRunner.vcxproj -> C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\src\msvc6\testrunner\.\Release\TestRunner.dll
+       PostBuildEvent:
+         copy "C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\src\msvc6\testrunner\.\Release\TestRunner.dll" ..\..\..\lib\TestRunner.dll
+         copy "C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\src\msvc6\testrunner\Release\TestRunner.lib" ..\..\..\lib\TestRunner.lib
+         :VCEnd
+                 1 file(s) copied.
+                 1 file(s) copied.
+     1>Done Building Project "C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\src\msvc6\testrunner\TestRunner.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.07

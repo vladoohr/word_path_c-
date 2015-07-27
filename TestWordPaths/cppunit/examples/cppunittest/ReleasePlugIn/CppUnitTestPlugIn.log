@@ -1,0 +1,824 @@
+﻿Build started 23.07.2015 09:49:15.
+     1>Project "C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\examples\cppunittest\CppUnitTestPlugIn.vcxproj" on node 5 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I../../include /Z7 /nologo /W3 /WX- /O2 /Oy- /D NDEBUG /D CPPUNITTESTPLUGIN_EXPORTS /D WIN32 /D _WINDOWS /D _USRDLL /D CPPUNIT_DLL /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo".\ReleasePlugIn\\" /Fd".\ReleasePlugIn\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt CppUnitTestSuite.cpp BaseTestCase.cpp MockTestCase.cpp MockTestListener.cpp SubclassedTestCase.cpp TrackedTestCase.cpp ExceptionTest.cpp MessageTest.cpp TestAssertTest.cpp TestCallerTest.cpp TestCaseTest.cpp TestFailureTest.cpp TestPathTest.cpp TestResultTest.cpp TestSuiteTest.cpp TestTest.cpp XmlUniformiser.cpp XmlUniformiserTest.cpp HelperMacrosTest.cpp ExceptionTestCaseDecoratorTest.cpp OrthodoxTest.cpp RepeatedTestTest.cpp TestDecoratorTest.cpp TestSetUpTest.cpp TestResultCollectorTest.cpp XmlOutputterTest.cpp StringToolsTest.cpp XmlElementTest.cpp CppUnitTestPlugIn.cpp
+         CppUnitTestSuite.cpp
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/SourceLine.h(56): warning C4251: 'CppUnit::SourceLine::m_fileName' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::SourceLine'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/Exception.h(82): warning C4251: 'CppUnit::Exception::m_whatMessage' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::Exception'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/TestCase.h(50): warning C4251: 'CppUnit::TestCase::m_name' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::TestCase'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/extensions/TestNamer.h(82): warning C4251: 'CppUnit::TestNamer::m_fixtureName' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::TestNamer'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+         BaseTestCase.cpp
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/SourceLine.h(56): warning C4251: 'CppUnit::SourceLine::m_fileName' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::SourceLine'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/Exception.h(82): warning C4251: 'CppUnit::Exception::m_whatMessage' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::Exception'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/TestCase.h(50): warning C4251: 'CppUnit::TestCase::m_name' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::TestCase'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/extensions/TestNamer.h(82): warning C4251: 'CppUnit::TestNamer::m_fixtureName' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::TestNamer'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+         MockTestCase.cpp
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/SourceLine.h(56): warning C4251: 'CppUnit::SourceLine::m_fileName' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::SourceLine'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/Exception.h(82): warning C4251: 'CppUnit::Exception::m_whatMessage' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::Exception'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/TestCase.h(50): warning C4251: 'CppUnit::TestCase::m_name' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::TestCase'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+         MockTestListener.cpp
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/SourceLine.h(56): warning C4251: 'CppUnit::SourceLine::m_fileName' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::SourceLine'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/Exception.h(82): warning C4251: 'CppUnit::Exception::m_whatMessage' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::Exception'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+         SubclassedTestCase.cpp
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/SourceLine.h(56): warning C4251: 'CppUnit::SourceLine::m_fileName' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::SourceLine'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/Exception.h(82): warning C4251: 'CppUnit::Exception::m_whatMessage' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::Exception'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/TestCase.h(50): warning C4251: 'CppUnit::TestCase::m_name' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::TestCase'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/extensions/TestNamer.h(82): warning C4251: 'CppUnit::TestNamer::m_fixtureName' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::TestNamer'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+         TrackedTestCase.cpp
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/SourceLine.h(56): warning C4251: 'CppUnit::SourceLine::m_fileName' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::SourceLine'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/Exception.h(82): warning C4251: 'CppUnit::Exception::m_whatMessage' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::Exception'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/TestCase.h(50): warning C4251: 'CppUnit::TestCase::m_name' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::TestCase'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+         ExceptionTest.cpp
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/SourceLine.h(56): warning C4251: 'CppUnit::SourceLine::m_fileName' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::SourceLine'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/Exception.h(82): warning C4251: 'CppUnit::Exception::m_whatMessage' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::Exception'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/TestCase.h(50): warning C4251: 'CppUnit::TestCase::m_name' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::TestCase'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/extensions/TestNamer.h(82): warning C4251: 'CppUnit::TestNamer::m_fixtureName' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::TestNamer'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+         MessageTest.cpp
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/SourceLine.h(56): warning C4251: 'CppUnit::SourceLine::m_fileName' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::SourceLine'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/Exception.h(82): warning C4251: 'CppUnit::Exception::m_whatMessage' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::Exception'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/TestCase.h(50): warning C4251: 'CppUnit::TestCase::m_name' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::TestCase'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/extensions/TestNamer.h(82): warning C4251: 'CppUnit::TestNamer::m_fixtureName' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::TestNamer'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+         TestAssertTest.cpp
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/SourceLine.h(56): warning C4251: 'CppUnit::SourceLine::m_fileName' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::SourceLine'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/Exception.h(82): warning C4251: 'CppUnit::Exception::m_whatMessage' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::Exception'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/TestCase.h(50): warning C4251: 'CppUnit::TestCase::m_name' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::TestCase'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/extensions/TestNamer.h(82): warning C4251: 'CppUnit::TestNamer::m_fixtureName' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::TestNamer'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+         TestCallerTest.cpp
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/SourceLine.h(56): warning C4251: 'CppUnit::SourceLine::m_fileName' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::SourceLine'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/Exception.h(82): warning C4251: 'CppUnit::Exception::m_whatMessage' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::Exception'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/TestCase.h(50): warning C4251: 'CppUnit::TestCase::m_name' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::TestCase'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/extensions/TestNamer.h(82): warning C4251: 'CppUnit::TestNamer::m_fixtureName' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::TestNamer'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+         TestCaseTest.cpp
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/SourceLine.h(56): warning C4251: 'CppUnit::SourceLine::m_fileName' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::SourceLine'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/Exception.h(82): warning C4251: 'CppUnit::Exception::m_whatMessage' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::Exception'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/TestCase.h(50): warning C4251: 'CppUnit::TestCase::m_name' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::TestCase'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/extensions/TestNamer.h(82): warning C4251: 'CppUnit::TestNamer::m_fixtureName' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::TestNamer'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+         TestFailureTest.cpp
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/SourceLine.h(56): warning C4251: 'CppUnit::SourceLine::m_fileName' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::SourceLine'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/Exception.h(82): warning C4251: 'CppUnit::Exception::m_whatMessage' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::Exception'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/TestCase.h(50): warning C4251: 'CppUnit::TestCase::m_name' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::TestCase'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/extensions/TestNamer.h(82): warning C4251: 'CppUnit::TestNamer::m_fixtureName' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::TestNamer'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+         TestPathTest.cpp
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/SourceLine.h(56): warning C4251: 'CppUnit::SourceLine::m_fileName' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::SourceLine'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/Exception.h(82): warning C4251: 'CppUnit::Exception::m_whatMessage' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::Exception'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/TestCase.h(50): warning C4251: 'CppUnit::TestCase::m_name' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::TestCase'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/extensions/TestNamer.h(82): warning C4251: 'CppUnit::TestNamer::m_fixtureName' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::TestNamer'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+         TestResultTest.cpp
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/SourceLine.h(56): warning C4251: 'CppUnit::SourceLine::m_fileName' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::SourceLine'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/Exception.h(82): warning C4251: 'CppUnit::Exception::m_whatMessage' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::Exception'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/TestCase.h(50): warning C4251: 'CppUnit::TestCase::m_name' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::TestCase'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/extensions/TestNamer.h(82): warning C4251: 'CppUnit::TestNamer::m_fixtureName' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::TestNamer'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+         TestSuiteTest.cpp
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/SourceLine.h(56): warning C4251: 'CppUnit::SourceLine::m_fileName' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::SourceLine'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/Exception.h(82): warning C4251: 'CppUnit::Exception::m_whatMessage' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::Exception'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/TestCase.h(50): warning C4251: 'CppUnit::TestCase::m_name' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::TestCase'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/extensions/TestNamer.h(82): warning C4251: 'CppUnit::TestNamer::m_fixtureName' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::TestNamer'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+         TestTest.cpp
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/SourceLine.h(56): warning C4251: 'CppUnit::SourceLine::m_fileName' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::SourceLine'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/Exception.h(82): warning C4251: 'CppUnit::Exception::m_whatMessage' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::Exception'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/TestCase.h(50): warning C4251: 'CppUnit::TestCase::m_name' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::TestCase'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/extensions/TestNamer.h(82): warning C4251: 'CppUnit::TestNamer::m_fixtureName' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::TestNamer'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+         XmlUniformiser.cpp
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/SourceLine.h(56): warning C4251: 'CppUnit::SourceLine::m_fileName' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::SourceLine'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/Exception.h(82): warning C4251: 'CppUnit::Exception::m_whatMessage' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::Exception'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+         XmlUniformiserTest.cpp
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/SourceLine.h(56): warning C4251: 'CppUnit::SourceLine::m_fileName' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::SourceLine'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/Exception.h(82): warning C4251: 'CppUnit::Exception::m_whatMessage' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::Exception'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/TestCase.h(50): warning C4251: 'CppUnit::TestCase::m_name' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::TestCase'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/extensions/TestNamer.h(82): warning C4251: 'CppUnit::TestNamer::m_fixtureName' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::TestNamer'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+         HelperMacrosTest.cpp
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/SourceLine.h(56): warning C4251: 'CppUnit::SourceLine::m_fileName' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::SourceLine'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/Exception.h(82): warning C4251: 'CppUnit::Exception::m_whatMessage' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::Exception'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/TestCase.h(50): warning C4251: 'CppUnit::TestCase::m_name' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::TestCase'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/extensions/TestNamer.h(82): warning C4251: 'CppUnit::TestNamer::m_fixtureName' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::TestNamer'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+         ExceptionTestCaseDecoratorTest.cpp
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/SourceLine.h(56): warning C4251: 'CppUnit::SourceLine::m_fileName' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::SourceLine'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/Exception.h(82): warning C4251: 'CppUnit::Exception::m_whatMessage' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::Exception'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/TestCase.h(50): warning C4251: 'CppUnit::TestCase::m_name' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::TestCase'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/extensions/TestNamer.h(82): warning C4251: 'CppUnit::TestNamer::m_fixtureName' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::TestNamer'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+         Generating Code...
+         Compiling...
+         OrthodoxTest.cpp
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/SourceLine.h(56): warning C4251: 'CppUnit::SourceLine::m_fileName' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::SourceLine'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/Exception.h(82): warning C4251: 'CppUnit::Exception::m_whatMessage' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::Exception'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/TestCase.h(50): warning C4251: 'CppUnit::TestCase::m_name' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::TestCase'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/extensions/TestNamer.h(82): warning C4251: 'CppUnit::TestNamer::m_fixtureName' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::TestNamer'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+         RepeatedTestTest.cpp
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/SourceLine.h(56): warning C4251: 'CppUnit::SourceLine::m_fileName' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::SourceLine'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/Exception.h(82): warning C4251: 'CppUnit::Exception::m_whatMessage' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::Exception'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/TestCase.h(50): warning C4251: 'CppUnit::TestCase::m_name' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::TestCase'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/extensions/TestNamer.h(82): warning C4251: 'CppUnit::TestNamer::m_fixtureName' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::TestNamer'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+         TestDecoratorTest.cpp
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/SourceLine.h(56): warning C4251: 'CppUnit::SourceLine::m_fileName' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::SourceLine'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/Exception.h(82): warning C4251: 'CppUnit::Exception::m_whatMessage' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::Exception'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/TestCase.h(50): warning C4251: 'CppUnit::TestCase::m_name' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::TestCase'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/extensions/TestNamer.h(82): warning C4251: 'CppUnit::TestNamer::m_fixtureName' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::TestNamer'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+         TestSetUpTest.cpp
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/SourceLine.h(56): warning C4251: 'CppUnit::SourceLine::m_fileName' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::SourceLine'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/Exception.h(82): warning C4251: 'CppUnit::Exception::m_whatMessage' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::Exception'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/TestCase.h(50): warning C4251: 'CppUnit::TestCase::m_name' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::TestCase'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/extensions/TestNamer.h(82): warning C4251: 'CppUnit::TestNamer::m_fixtureName' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::TestNamer'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+         TestResultCollectorTest.cpp
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/SourceLine.h(56): warning C4251: 'CppUnit::SourceLine::m_fileName' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::SourceLine'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/Exception.h(82): warning C4251: 'CppUnit::Exception::m_whatMessage' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::Exception'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/TestCase.h(50): warning C4251: 'CppUnit::TestCase::m_name' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::TestCase'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/extensions/TestNamer.h(82): warning C4251: 'CppUnit::TestNamer::m_fixtureName' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::TestNamer'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+         XmlOutputterTest.cpp
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/SourceLine.h(56): warning C4251: 'CppUnit::SourceLine::m_fileName' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::SourceLine'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/Exception.h(82): warning C4251: 'CppUnit::Exception::m_whatMessage' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::Exception'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/TestCase.h(50): warning C4251: 'CppUnit::TestCase::m_name' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::TestCase'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/extensions/TestNamer.h(82): warning C4251: 'CppUnit::TestNamer::m_fixtureName' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::TestNamer'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+         StringToolsTest.cpp
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/SourceLine.h(56): warning C4251: 'CppUnit::SourceLine::m_fileName' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::SourceLine'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/Exception.h(82): warning C4251: 'CppUnit::Exception::m_whatMessage' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::Exception'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/TestCase.h(50): warning C4251: 'CppUnit::TestCase::m_name' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::TestCase'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/extensions/TestNamer.h(82): warning C4251: 'CppUnit::TestNamer::m_fixtureName' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::TestNamer'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+         XmlElementTest.cpp
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/SourceLine.h(56): warning C4251: 'CppUnit::SourceLine::m_fileName' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::SourceLine'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/Exception.h(82): warning C4251: 'CppUnit::Exception::m_whatMessage' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::Exception'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/TestCase.h(50): warning C4251: 'CppUnit::TestCase::m_name' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::TestCase'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/extensions/TestNamer.h(82): warning C4251: 'CppUnit::TestNamer::m_fixtureName' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::TestNamer'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+         CppUnitTestPlugIn.cpp
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/plugin/PlugInParameters.h(27): warning C4251: 'CppUnit::PlugInParameters::m_commandLine' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::PlugInParameters'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/plugin/TestPlugInDefaultImpl.h(27): warning C4275: non dll-interface struct 'CppUnitTestPlugIn' used as base for dll-interface class 'CppUnit::TestPlugInDefaultImpl'
+                 C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/plugin/TestPlugIn.h(44) : see declaration of 'CppUnitTestPlugIn'
+                 C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/plugin/TestPlugInDefaultImpl.h(26) : see declaration of 'CppUnit::TestPlugInDefaultImpl'
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\ReleasePlugIn\CppUnitTestPlugIn.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:../../lib/ odbc32.lib odbccp32.lib cppunit_dll.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\ReleasePlugIn\CppUnitTestPlugIn.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\ReleasePlugIn\CppUnitTestPlugIn.lib" /MACHINE:X86 /SAFESEH /DLL .\ReleasePlugIn\CppUnitTestSuite.obj
+         .\ReleasePlugIn\BaseTestCase.obj
+         .\ReleasePlugIn\MockTestCase.obj
+         .\ReleasePlugIn\MockTestListener.obj
+         .\ReleasePlugIn\SubclassedTestCase.obj
+         .\ReleasePlugIn\TrackedTestCase.obj
+         .\ReleasePlugIn\ExceptionTest.obj
+         .\ReleasePlugIn\MessageTest.obj
+         .\ReleasePlugIn\TestAssertTest.obj
+         .\ReleasePlugIn\TestCallerTest.obj
+         .\ReleasePlugIn\TestCaseTest.obj
+         .\ReleasePlugIn\TestFailureTest.obj
+         .\ReleasePlugIn\TestPathTest.obj
+         .\ReleasePlugIn\TestResultTest.obj
+         .\ReleasePlugIn\TestSuiteTest.obj
+         .\ReleasePlugIn\TestTest.obj
+         .\ReleasePlugIn\XmlUniformiser.obj
+         .\ReleasePlugIn\XmlUniformiserTest.obj
+         .\ReleasePlugIn\HelperMacrosTest.obj
+         .\ReleasePlugIn\ExceptionTestCaseDecoratorTest.obj
+         .\ReleasePlugIn\OrthodoxTest.obj
+         .\ReleasePlugIn\RepeatedTestTest.obj
+         .\ReleasePlugIn\TestDecoratorTest.obj
+         .\ReleasePlugIn\TestSetUpTest.obj
+         .\ReleasePlugIn\TestResultCollectorTest.obj
+         .\ReleasePlugIn\XmlOutputterTest.obj
+         .\ReleasePlugIn\StringToolsTest.obj
+         .\ReleasePlugIn\XmlElementTest.obj
+         .\ReleasePlugIn\CppUnitTestPlugIn.obj
+     1>LINK : fatal error LNK1181: cannot open input file 'cppunit_dll.lib'
+     1>Done Building Project "C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\examples\cppunittest\CppUnitTestPlugIn.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:20.25

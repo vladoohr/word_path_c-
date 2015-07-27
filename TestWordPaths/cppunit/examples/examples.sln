@@ -1,0 +1,138 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ClockerPlugIn", "ClockerPlugIn\ClockerPlugIn.vcxproj", "{3D895521-BA78-4FF7-9817-5FEB74B34C76}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CppUnitTestApp", "msvc6\CppUnitTestApp\CppUnitTestApp.vcxproj", "{B32C9DDF-9954-4892-9FA1-5AE866E6B34F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CppUnitTestMain", "cppunittest\CppUnitTestMain.vcxproj", "{6BB8C1C0-C806-4F64-BC99-52E9287C216C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CppUnitTestPlugIn", "cppunittest\CppUnitTestPlugIn.vcxproj", "{4B22366E-F925-4F8E-A527-667D239CD358}"
+EndProject
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "DllPlugInTester", "..\src\DllPlugInTester\DllPlugInTester.dsp", "{9216DB9D-F249-4B24-9F73-1541BD63B2F6}"
+	ProjectSection(DevStudioProjDeps) = postProject
+		0 = cppunit_dll
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DllPlugInTesterTest", "..\src\DllPlugInTester\DllPlugInTesterTest.vcxproj", "{BE7A560C-81A2-413A-A183-12DC13A2249F}"
+EndProject
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "DumperPlugIn", "DumperPlugIn\DumperPlugIn.vcxproj", "{F55B4D92-373C-4550-83C1-924F2292A2ED}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9416802F-0AAD-456F-A5FA-52687EFC5357} = {9416802F-0AAD-456F-A5FA-52687EFC5357}
+	EndProjectSection
+EndProject
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "HostApp", "msvc6\HostApp\HostApp.vcxproj", "{CFCD6681-620A-4022-B09E-8A6A83A6B28A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{576AEB17-852F-4667-A779-2C83131B9CA9} = {576AEB17-852F-4667-A779-2C83131B9CA9}
+	EndProjectSection
+EndProject
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "TestPlugInRunner", "..\src\msvc6\testpluginrunner\TestPlugInRunner.dsp", "{18D0C048-B014-4659-9B24-77018ACAE2CB}"
+	ProjectSection(DevStudioProjDeps) = postProject
+		0 = cppunit_dll
+	EndProjectSection
+EndProject
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "TestRunner", "..\src\msvc6\testrunner\TestRunner.dsp", "{576AEB17-852F-4667-A779-2C83131B9CA9}"
+	ProjectSection(DevStudioProjDeps) = postProject
+		0 = cppunit
+	EndProjectSection
+EndProject
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "cppunit", "..\src\cppunit\cppunit.dsp", "{3A83789C-FCE2-48B7-8871-B94269C77783}"
+EndProject
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "cppunit_dll", "..\src\cppunit\cppunit_dll.dsp", "{9416802F-0AAD-456F-A5FA-52687EFC5357}"
+EndProject
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "hierarchy", "hierarchy\hierarchy.vcxproj", "{BCB8165F-5DF8-4ECA-AFFF-FFD4396F61E2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3A83789C-FCE2-48B7-8871-B94269C77783} = {3A83789C-FCE2-48B7-8871-B94269C77783}
+	EndProjectSection
+EndProject
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "money", "money\money.vcxproj", "{44FCF899-5878-44B2-BA2E-3DC8845F06CD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3A83789C-FCE2-48B7-8871-B94269C77783} = {3A83789C-FCE2-48B7-8871-B94269C77783}
+	EndProjectSection
+EndProject
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "simple", "simple\simple.vcxproj", "{21320595-BE91-45BE-A548-FB7CDDCF2A24}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3A83789C-FCE2-48B7-8871-B94269C77783} = {3A83789C-FCE2-48B7-8871-B94269C77783}
+	EndProjectSection
+EndProject
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "simple_plugin", "SIMPLE\simple_plugin.vcxproj", "{2C3ACD17-473E-4247-B93B-AB994BC4B703}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9416802F-0AAD-456F-A5FA-52687EFC5357} = {9416802F-0AAD-456F-A5FA-52687EFC5357}
+		{9216DB9D-F249-4B24-9F73-1541BD63B2F6} = {9216DB9D-F249-4B24-9F73-1541BD63B2F6}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug DLL|Win32 = Debug DLL|Win32
+		Debug NtTimer|Win32 = Debug NtTimer|Win32
+		Debug|Win32 = Debug|Win32
+		Release DLL|Win32 = Release DLL|Win32
+		Release|Win32 = Release|Win32
+		Template|Win32 = Template|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D895521-BA78-4FF7-9817-5FEB74B34C76}.Debug DLL|Win32.ActiveCfg = Debug NtTimer|Win32
+		{3D895521-BA78-4FF7-9817-5FEB74B34C76}.Debug DLL|Win32.Build.0 = Debug NtTimer|Win32
+		{3D895521-BA78-4FF7-9817-5FEB74B34C76}.Debug NtTimer|Win32.ActiveCfg = Debug NtTimer|Win32
+		{3D895521-BA78-4FF7-9817-5FEB74B34C76}.Debug NtTimer|Win32.Build.0 = Debug NtTimer|Win32
+		{3D895521-BA78-4FF7-9817-5FEB74B34C76}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3D895521-BA78-4FF7-9817-5FEB74B34C76}.Debug|Win32.Build.0 = Debug|Win32
+		{3D895521-BA78-4FF7-9817-5FEB74B34C76}.Release DLL|Win32.ActiveCfg = Release|Win32
+		{3D895521-BA78-4FF7-9817-5FEB74B34C76}.Release DLL|Win32.Build.0 = Release|Win32
+		{3D895521-BA78-4FF7-9817-5FEB74B34C76}.Release|Win32.ActiveCfg = Release|Win32
+		{3D895521-BA78-4FF7-9817-5FEB74B34C76}.Release|Win32.Build.0 = Release|Win32
+		{3D895521-BA78-4FF7-9817-5FEB74B34C76}.Template|Win32.ActiveCfg = Debug NtTimer|Win32
+		{3D895521-BA78-4FF7-9817-5FEB74B34C76}.Template|Win32.Build.0 = Debug NtTimer|Win32
+		{B32C9DDF-9954-4892-9FA1-5AE866E6B34F}.Debug DLL|Win32.ActiveCfg = Debug|Win32
+		{B32C9DDF-9954-4892-9FA1-5AE866E6B34F}.Debug DLL|Win32.Build.0 = Debug|Win32
+		{B32C9DDF-9954-4892-9FA1-5AE866E6B34F}.Debug NtTimer|Win32.ActiveCfg = Debug|Win32
+		{B32C9DDF-9954-4892-9FA1-5AE866E6B34F}.Debug NtTimer|Win32.Build.0 = Debug|Win32
+		{B32C9DDF-9954-4892-9FA1-5AE866E6B34F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B32C9DDF-9954-4892-9FA1-5AE866E6B34F}.Debug|Win32.Build.0 = Debug|Win32
+		{B32C9DDF-9954-4892-9FA1-5AE866E6B34F}.Release DLL|Win32.ActiveCfg = Release|Win32
+		{B32C9DDF-9954-4892-9FA1-5AE866E6B34F}.Release DLL|Win32.Build.0 = Release|Win32
+		{B32C9DDF-9954-4892-9FA1-5AE866E6B34F}.Release|Win32.ActiveCfg = Release|Win32
+		{B32C9DDF-9954-4892-9FA1-5AE866E6B34F}.Release|Win32.Build.0 = Release|Win32
+		{B32C9DDF-9954-4892-9FA1-5AE866E6B34F}.Template|Win32.ActiveCfg = Template|Win32
+		{B32C9DDF-9954-4892-9FA1-5AE866E6B34F}.Template|Win32.Build.0 = Template|Win32
+		{6BB8C1C0-C806-4F64-BC99-52E9287C216C}.Debug DLL|Win32.ActiveCfg = Debug DLL|Win32
+		{6BB8C1C0-C806-4F64-BC99-52E9287C216C}.Debug DLL|Win32.Build.0 = Debug DLL|Win32
+		{6BB8C1C0-C806-4F64-BC99-52E9287C216C}.Debug NtTimer|Win32.ActiveCfg = Debug DLL|Win32
+		{6BB8C1C0-C806-4F64-BC99-52E9287C216C}.Debug NtTimer|Win32.Build.0 = Debug DLL|Win32
+		{6BB8C1C0-C806-4F64-BC99-52E9287C216C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6BB8C1C0-C806-4F64-BC99-52E9287C216C}.Debug|Win32.Build.0 = Debug|Win32
+		{6BB8C1C0-C806-4F64-BC99-52E9287C216C}.Release DLL|Win32.ActiveCfg = Release DLL|Win32
+		{6BB8C1C0-C806-4F64-BC99-52E9287C216C}.Release DLL|Win32.Build.0 = Release DLL|Win32
+		{6BB8C1C0-C806-4F64-BC99-52E9287C216C}.Release|Win32.ActiveCfg = Release|Win32
+		{6BB8C1C0-C806-4F64-BC99-52E9287C216C}.Release|Win32.Build.0 = Release|Win32
+		{6BB8C1C0-C806-4F64-BC99-52E9287C216C}.Template|Win32.ActiveCfg = Template|Win32
+		{6BB8C1C0-C806-4F64-BC99-52E9287C216C}.Template|Win32.Build.0 = Template|Win32
+		{4B22366E-F925-4F8E-A527-667D239CD358}.Debug DLL|Win32.ActiveCfg = Debug|Win32
+		{4B22366E-F925-4F8E-A527-667D239CD358}.Debug DLL|Win32.Build.0 = Debug|Win32
+		{4B22366E-F925-4F8E-A527-667D239CD358}.Debug NtTimer|Win32.ActiveCfg = Debug|Win32
+		{4B22366E-F925-4F8E-A527-667D239CD358}.Debug NtTimer|Win32.Build.0 = Debug|Win32
+		{4B22366E-F925-4F8E-A527-667D239CD358}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4B22366E-F925-4F8E-A527-667D239CD358}.Debug|Win32.Build.0 = Debug|Win32
+		{4B22366E-F925-4F8E-A527-667D239CD358}.Release DLL|Win32.ActiveCfg = Release|Win32
+		{4B22366E-F925-4F8E-A527-667D239CD358}.Release DLL|Win32.Build.0 = Release|Win32
+		{4B22366E-F925-4F8E-A527-667D239CD358}.Release|Win32.ActiveCfg = Release|Win32
+		{4B22366E-F925-4F8E-A527-667D239CD358}.Release|Win32.Build.0 = Release|Win32
+		{4B22366E-F925-4F8E-A527-667D239CD358}.Template|Win32.ActiveCfg = Template|Win32
+		{4B22366E-F925-4F8E-A527-667D239CD358}.Template|Win32.Build.0 = Template|Win32
+		{BE7A560C-81A2-413A-A183-12DC13A2249F}.Debug DLL|Win32.ActiveCfg = Debug|Win32
+		{BE7A560C-81A2-413A-A183-12DC13A2249F}.Debug DLL|Win32.Build.0 = Debug|Win32
+		{BE7A560C-81A2-413A-A183-12DC13A2249F}.Debug NtTimer|Win32.ActiveCfg = Debug|Win32
+		{BE7A560C-81A2-413A-A183-12DC13A2249F}.Debug NtTimer|Win32.Build.0 = Debug|Win32
+		{BE7A560C-81A2-413A-A183-12DC13A2249F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BE7A560C-81A2-413A-A183-12DC13A2249F}.Debug|Win32.Build.0 = Debug|Win32
+		{BE7A560C-81A2-413A-A183-12DC13A2249F}.Release DLL|Win32.ActiveCfg = Release|Win32
+		{BE7A560C-81A2-413A-A183-12DC13A2249F}.Release DLL|Win32.Build.0 = Release|Win32
+		{BE7A560C-81A2-413A-A183-12DC13A2249F}.Release|Win32.ActiveCfg = Release|Win32
+		{BE7A560C-81A2-413A-A183-12DC13A2249F}.Release|Win32.Build.0 = Release|Win32
+		{BE7A560C-81A2-413A-A183-12DC13A2249F}.Template|Win32.ActiveCfg = Template|Win32
+		{BE7A560C-81A2-413A-A183-12DC13A2249F}.Template|Win32.Build.0 = Template|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

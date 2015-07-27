@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Suites">
+      <UniqueIdentifier>{50da066e-4bda-4ced-969a-1ef0500f84ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TestSupport">
+      <UniqueIdentifier>{2912bcdc-047b-4e7d-95ae-157379f4ce99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{6578ad2d-28e7-4f9c-94af-c02a5367a776}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\Core">
+      <UniqueIdentifier>{ee44f674-24b2-4295-8831-1ca4c44be35a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\UnitTestTools">
+      <UniqueIdentifier>{51365d57-339f-4034-baf5-603fc84d64e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\Helper">
+      <UniqueIdentifier>{5e5f07ee-e875-4d0f-bdd2-205b2e7f3ca7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\Extension">
+      <UniqueIdentifier>{f13dfaea-75b6-4f5b-a998-cf0cd775d92e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\Output">
+      <UniqueIdentifier>{7f1eaa2b-e7a6-4e49-ad81-51d99e079f13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\Tools">
+      <UniqueIdentifier>{ac48f7d2-e65e-402d-8d95-e1911f69d440}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CoreSuite.h">
+      <Filter>Suites</Filter>
+    </ClInclude>
+    <ClInclude Include="CppUnitTestSuite.h">
+      <Filter>Suites</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtensionSuite.h">
+      <Filter>Suites</Filter>
+    </ClInclude>
+    <ClInclude Include="HelperSuite.h">
+      <Filter>Suites</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputSuite.h">
+      <Filter>Suites</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolsSuite.h">
+      <Filter>Suites</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitTestToolSuite.h">
+      <Filter>Suites</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseTestCase.h">
+      <Filter>TestSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="FailureException.h">
+      <Filter>TestSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="MockFunctor.h">
+      <Filter>TestSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="MockProtector.h">
+      <Filter>TestSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="MockTestCase.h">
+      <Filter>TestSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="MockTestListener.h">
+      <Filter>TestSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="SubclassedTestCase.h">
+      <Filter>TestSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="SynchronizedTestResult.h">
+      <Filter>TestSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="TrackedTestCase.h">
+      <Filter>TestSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="ExceptionTest.h">
+      <Filter>Tests\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageTest.h">
+      <Filter>Tests\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="TestAssertTest.h">
+      <Filter>Tests\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="TestCallerTest.h">
+      <Filter>Tests\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="TestCaseTest.h">
+      <Filter>Tests\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="TestFailureTest.h">
+      <Filter>Tests\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="TestPathTest.h">
+      <Filter>Tests\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="TestResultTest.h">
+      <Filter>Tests\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="TestSuiteTest.h">
+      <Filter>Tests\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="TestTest.h">
+      <Filter>Tests\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="XmlUniformiser.h">
+      <Filter>Tests\UnitTestTools</Filter>
+    </ClInclude>
+    <ClInclude Include="XmlUniformiserTest.h">
+      <Filter>Tests\UnitTestTools</Filter>
+    </ClInclude>
+    <ClInclude Include="HelperMacrosTest.h">
+      <Filter>Tests\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="ExceptionTestCaseDecoratorTest.h">
+      <Filter>Tests\Extension</Filter>
+    </ClInclude>
+    <ClInclude Include="OrthodoxTest.h">
+      <Filter>Tests\Extension</Filter>
+    </ClInclude>
+    <ClInclude Include="RepeatedTestTest.h">
+      <Filter>Tests\Extension</Filter>
+    </ClInclude>
+    <ClInclude Include="TestDecoratorTest.h">
+      <Filter>Tests\Extension</Filter>
+    </ClInclude>
+    <ClInclude Include="TestSetUpTest.h">
+      <Filter>Tests\Extension</Filter>
+    </ClInclude>
+    <ClInclude Include="TestResultCollectorTest.h">
+      <Filter>Tests\Output</Filter>
+    </ClInclude>
+    <ClInclude Include="XmlOutputterTest.h">
+      <Filter>Tests\Output</Filter>
+    </ClInclude>
+    <ClInclude Include="StringToolsTest.h">
+      <Filter>Tests\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="XmlElementTest.h">
+      <Filter>Tests\Tools</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CppUnitTestSuite.cpp">
+      <Filter>Suites</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseTestCase.cpp">
+      <Filter>TestSupport</Filter>
+    </ClCompile>
+    <ClCompile Include="MockTestCase.cpp">
+      <Filter>TestSupport</Filter>
+    </ClCompile>
+    <ClCompile Include="MockTestListener.cpp">
+      <Filter>TestSupport</Filter>
+    </ClCompile>
+    <ClCompile Include="SubclassedTestCase.cpp">
+      <Filter>TestSupport</Filter>
+    </ClCompile>
+    <ClCompile Include="TrackedTestCase.cpp">
+      <Filter>TestSupport</Filter>
+    </ClCompile>
+    <ClCompile Include="ExceptionTest.cpp">
+      <Filter>Tests\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageTest.cpp">
+      <Filter>Tests\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="TestAssertTest.cpp">
+      <Filter>Tests\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="TestCallerTest.cpp">
+      <Filter>Tests\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="TestCaseTest.cpp">
+      <Filter>Tests\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="TestFailureTest.cpp">
+      <Filter>Tests\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="TestPathTest.cpp">
+      <Filter>Tests\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="TestResultTest.cpp">
+      <Filter>Tests\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="TestSuiteTest.cpp">
+      <Filter>Tests\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="TestTest.cpp">
+      <Filter>Tests\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="XmlUniformiser.cpp">
+      <Filter>Tests\UnitTestTools</Filter>
+    </ClCompile>
+    <ClCompile Include="XmlUniformiserTest.cpp">
+      <Filter>Tests\UnitTestTools</Filter>
+    </ClCompile>
+    <ClCompile Include="HelperMacrosTest.cpp">
+      <Filter>Tests\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="ExceptionTestCaseDecoratorTest.cpp">
+      <Filter>Tests\Extension</Filter>
+    </ClCompile>
+    <ClCompile Include="OrthodoxTest.cpp">
+      <Filter>Tests\Extension</Filter>
+    </ClCompile>
+    <ClCompile Include="RepeatedTestTest.cpp">
+      <Filter>Tests\Extension</Filter>
+    </ClCompile>
+    <ClCompile Include="TestDecoratorTest.cpp">
+      <Filter>Tests\Extension</Filter>
+    </ClCompile>
+    <ClCompile Include="TestSetUpTest.cpp">
+      <Filter>Tests\Extension</Filter>
+    </ClCompile>
+    <ClCompile Include="TestResultCollectorTest.cpp">
+      <Filter>Tests\Output</Filter>
+    </ClCompile>
+    <ClCompile Include="XmlOutputterTest.cpp">
+      <Filter>Tests\Output</Filter>
+    </ClCompile>
+    <ClCompile Include="StringToolsTest.cpp">
+      <Filter>Tests\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="XmlElementTest.cpp">
+      <Filter>Tests\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="CppUnitTestPlugIn.cpp" />
+  </ItemGroup>
+</Project>

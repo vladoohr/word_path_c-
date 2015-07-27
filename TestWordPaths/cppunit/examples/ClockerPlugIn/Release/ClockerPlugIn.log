@@ -1,0 +1,33 @@
+﻿Build started 23.07.2015 09:49:15.
+     1>Project "C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\examples\ClockerPlugIn\ClockerPlugIn.vcxproj" on node 4 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\include /Z7 /nologo /W3 /WX- /O2 /Oy- /D NDEBUG /D WIN32 /D _WINDOWS /D _USRDLL /D CPPUNIT_DLL /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo".\Release\\" /Fd".\Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ClockerListener.cpp ClockerModel.cpp ClockerPlugIn.cpp ClockerXmlHook.cpp Timer.cpp
+         ClockerListener.cpp
+         ClockerModel.cpp
+         ClockerPlugIn.cpp
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/plugin/PlugInParameters.h(27): warning C4251: 'CppUnit::PlugInParameters::m_commandLine' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'CppUnit::PlugInParameters'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/plugin/TestPlugInDefaultImpl.h(27): warning C4275: non dll-interface struct 'CppUnitTestPlugIn' used as base for dll-interface class 'CppUnit::TestPlugInDefaultImpl'
+                 C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/plugin/TestPlugIn.h(44) : see declaration of 'CppUnitTestPlugIn'
+                 C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\include\cppunit/plugin/TestPlugInDefaultImpl.h(26) : see declaration of 'CppUnit::TestPlugInDefaultImpl'
+         ClockerXmlHook.cpp
+         Timer.cpp
+         Generating Code...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1137,5): warning MSB8012: TargetPath(C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\examples\ClockerPlugIn\.\Release\ClockerPlugIn.dll) does not match the Linker's OutputFile property value (C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\lib\ClockerPlugIn.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../lib/ClockerPlugIn.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:../../lib/ odbc32.lib odbccp32.lib cppunit_dll.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\Release\ClockerPlugIn.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Release\ClockerPlugIn.lib" /MACHINE:X86 /SAFESEH /DLL .\Release\ClockerListener.obj
+         .\Release\ClockerModel.obj
+         .\Release\ClockerPlugIn.obj
+         .\Release\ClockerXmlHook.obj
+         .\Release\Timer.obj
+     1>LINK : fatal error LNK1181: cannot open input file 'cppunit_dll.lib'
+     1>Done Building Project "C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\examples\ClockerPlugIn\ClockerPlugIn.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.72

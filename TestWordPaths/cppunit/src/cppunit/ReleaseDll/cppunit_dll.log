@@ -1,0 +1,15 @@
+﻿Build started 23.07.2015 10:10:50.
+     1>Project "C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\src\cppunit\cppunit_dll.vcxproj" on node 3 (Build target(s)).
+     1>Link:
+         cppunit_dll.vcxproj -> C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\src\cppunit\.\ReleaseDll\cppunit_dll.dll
+       PostBuildEvent:
+         copy "C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\src\cppunit\.\ReleaseDll\cppunit_dll.dll" ..\..\lib\cppunit_dll.dll
+         copy "C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\src\cppunit\ReleaseDll\cppunit_dll.lib" ..\..\lib\cppunit_dll.lib
+         :VCEnd
+                 1 file(s) copied.
+                 1 file(s) copied.
+     1>Done Building Project "C:\Users\xxvs0026\Downloads\cppunit-1.12.1.VS2010\cppunit-1.12.1\src\cppunit\cppunit_dll.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.09
